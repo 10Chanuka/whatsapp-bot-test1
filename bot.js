@@ -3,7 +3,8 @@ const qrcode = require('qrcode-terminal');
 
 const client = new Client({
     puppeteer: {
-        executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
     }
 });
 
@@ -16,9 +17,7 @@ client.on('ready', () => {
 });
 
 client.on('message', (message) => {
-    const msg = message.body.toLowerCase();
-
-    if (msg === 'hi') {
+    if (message.body.toLowerCase() === 'hi') {
         message.reply('Hello 👋');
     }
 });
