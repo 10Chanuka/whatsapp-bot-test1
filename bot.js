@@ -3,8 +3,8 @@ const qrcode = require('qrcode-terminal');
 
 const client = new Client({
     puppeteer: {
-        headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+        headless: false
     }
 });
 
