@@ -34,20 +34,24 @@ Copy and run the following commands step by step:
 # 1️⃣ Clone the repository
 git clone https://github.com/10Chanuka/whatsapp-bot-test1.git
 cd whatsapp-bot-test1
-
+```
 # 2️⃣ Install dependencies
+```bash
 npm install
-
+```
 # 3️⃣ Configure Chrome path in bot.js
 # Open bot.js and set executablePath to your Chrome installation
 # Example:
+```bash
 # puppeteer: {
 #     executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
 #     headless: false
 # }
-
+```
 # 4️⃣ Run the bot
+```bash
 node bot.js
+```
 
 # 5️⃣ Scan QR code
 # A QR code will appear in your terminal
@@ -66,16 +70,19 @@ node bot.js
 # 🤝 Contributing
 # Fork the repository
 # Create a new branch
+```bash
 git checkout -b feature/YourFeature
-
+```
 # Make your changes and commit
+```bash
 git commit -m "Add your message"
-
+```
 # Push to your branch
+```bash
 git push origin feature/YourFeature
+```
 
 # Open a Pull Request
-```
 
 ---
 
