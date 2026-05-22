@@ -30,59 +30,59 @@ This project is intended for **learning purposes** and demonstrates basic WhatsA
 
 Copy and run the following commands step by step:
 
+### 1️⃣ Clone the repository
 ```bash
-# 1️⃣ Clone the repository
 git clone https://github.com/10Chanuka/whatsapp-bot-test1.git
 cd whatsapp-bot-test1
 ```
-# 2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 ```bash
 npm install
 ```
-# 3️⃣ Configure Chrome path in bot.js
-# Open bot.js and set executablePath to your Chrome installation
-# Example:
+### 3️⃣ Configure Chrome path in bot.js
+- Open bot.js and set executablePath to your Chrome installation
+- Example:
 ```bash
 # puppeteer: {
 #     executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
 #     headless: false
 # }
 ```
-# 4️⃣ Run the bot
+### 4️⃣ Run the bot
 ```bash
 node bot.js
 ```
 
-# 5️⃣ Scan QR code
-# A QR code will appear in your terminal
-# Open WhatsApp on your phone → Menu → Linked Devices → Scan QR code
-# Once scanned, the bot is ready to receive messages ✅
+### 5️⃣ Scan QR code
+- A QR code will appear in your terminal
+- Open WhatsApp on your phone → Menu → Linked Devices → Scan QR code
+- Once scanned, the bot is ready to receive messages ✅
 
-# 💬 Usage
-# Send a WhatsApp message to the number logged in through the bot
-# Commands:
-# hi    → Hello 👋 Welcome to my bot!
-# help  → Displays the command menu
-# 1     → Info about the bot
-# 2     → Contact information
-# Any unrecognized message → Sorry, I did not understand 🤖
+### 💬 Usage
+- Send a WhatsApp message to the number logged in through the bot
+- Commands:
+    - hi    → Hello 👋 Welcome to my bot!
+    - help  → Displays the command menu
+    - 1     → Info about the bot
+    - 2     → Contact information
+### Any unrecognized message → Sorry, I did not understand 🤖
 
-# 🤝 Contributing
-# Fork the repository
-# Create a new branch
+### 🤝 Contributing
+- Fork the repository
+- Create a new branch
 ```bash
 git checkout -b feature/YourFeature
 ```
-# Make your changes and commit
+- Make your changes and commit
 ```bash
 git commit -m "Add your message"
 ```
-# Push to your branch
+- Push to your branch
 ```bash
 git push origin feature/YourFeature
 ```
 
-# Open a Pull Request
+- Open a Pull Request
 
 ---
 
